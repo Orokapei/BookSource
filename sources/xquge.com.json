@@ -1,0 +1,29 @@
+{
+    "name": "新笔趣阁",
+    "url": "www.xquge.com",
+    "version": 100,
+    "search": {
+        "url": "https://www.xquge.com/search?keyword=${key}",
+        "charset": "utf-8",
+        "list": "ul.rank_ullist > li",
+        "name": "div.rank_bkname > a",
+        "author": "span.author",
+        "cover": "a.book_img > img",
+        "summary": "div.rank_bkbrief",
+        "detail": "div.rank_bkname >a"
+    },
+    "detail": {
+        "status": "span.light_box",
+        "update": "dd.bk_fontinfo > span:nth-child(3)@match->(?<=最后更新时间：)(.+)",
+        "lastChapter": "dd.bk_fontinfo >a"
+    },
+    "catalog": {
+        "list": "ul.catelog_list > li",
+        "orderBy": 0,
+        "name": "a",
+        "chapter": "a"
+    },
+    "chapter": {
+        "content": "#content"
+    }
+}
