@@ -1,7 +1,7 @@
 {
-    "name": "新笔趣阁",
+    "name": "新笔趣阁(www.xquge.com)",
     "url": "www.xquge.com",
-    "version": 100,
+    "version": 101,
     "search": {
         "url": "https://www.xquge.com/search?keyword=${key}",
         "charset": "utf-8",
