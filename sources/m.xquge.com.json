@@ -1,0 +1,34 @@
+{
+    "name": "新笔趣阁(m.xquge.com)",
+    "url": "m.xquge.com",
+    "version": 101,
+    "search": {
+        "url": "https://m.xquge.com/Book/search.html?key=${key}",
+        "charset": "utf-8",
+        "list": "div.books-res > div",
+        "name": "div.title",
+        "author": "div.author@match->(?<=作者：)(.+)",
+        "cover": "div.cover > img",
+        "summary": "div.text",
+        "detail": "a.link"
+    },
+    "detail": {
+        "name": "h1.title",
+        "author": "ul.info > li:nth-child(1)@match->(?<=作者：)(.+)",
+        "cover": "div.bg > img",
+        "summary": "div.body@match->(?<=简介：)(.+)",
+        "status": "ul.info > li:nth-child(3)@match->(?<=状态：)(.+)",
+        "update": "ul.info > li:nth-child(4)@match->(?<=最后更新时间：)(.+)",
+        "lastChapter": "ul.newChapter > li:nth-child(1)@match->(?<=最新)(.+)",
+        "catalog": "div.pull-right > a"
+    },
+    "catalog": {
+        "list": "ul.catalog_ls > li",
+        "orderBy": 0,
+        "name": "a",
+        "chapter": "a"
+    },
+    "chapter": {
+        "content": "p.line"
+    }
+}
