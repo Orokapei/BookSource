@@ -1,7 +1,7 @@
 # 厚墨2.0书源
 - 新笔趣阁（xquge.com、m.xquge.com）
 ```
-https://raw.githubusercontent.com/Orokapei/DeepinkBookSource/main/repository.json
+https://raw.githubusercontent.com/Orokapei/BookSource/main/repository.json
 ```
 # 阅读3.0书源
 - 新笔趣阁（m.xquge.com）
