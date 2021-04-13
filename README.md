@@ -1,4 +1,4 @@
-# 厚墨2.0书源
+# 厚墨1.0书源
 - 新笔趣阁``www.xquge.com、m.xquge.com``
 ```
 https://raw.githubusercontent.com/Orokapei/BookSource/main/repository.json
