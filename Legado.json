@@ -1,196 +1,251 @@
 [
-    {
-        "bookSourceComment": "",
-        "bookSourceGroup": "",
-        "bookSourceName": "新笔趣阁",
-        "bookSourceType": 0,
-        "bookSourceUrl": "https://m.xquge.com",
-        "bookUrlPattern": "",
-        "customOrder": 0,
-        "enabled": true,
-        "enabledExplore": false,
-        "exploreUrl": "",
-        "header": "",
-        "lastUpdateTime": 1617462681374,
-        "loginUrl": "",
-        "ruleBookInfo": {
-            "author": "class.container@class.info@tag.li.0@text##.*：",
-            "coverUrl": "class.bg@img@src",
-            "intro": "class.article@class.body@text",
-            "kind": "class.container@class.info@a@text&&class.container@class.info@tag.li.2@text##.*：",
-            "lastChapter": "class.newChapter@tag.a.0@text##最新",
-            "name": "class.cover-box@class.title@text",
-            "tocUrl": "class.pull-right@a@href##$##,{\"webView\":true}"
-        },
-        "ruleContent": {
-            "content": "class.line@text"
-        },
-        "ruleExplore": {
-            "author": "class.author@class.name@text",
-            "bookList": "class.book-img-text@li",
-            "bookUrl": "class.book-mid-info@h4@a@href##$##,{\"webView\":true}",
-            "coverUrl": "class.book-img-box@img@src##/[^/]*$",
-            "intro": "class.intro@text",
-            "kind": "class.author@tag.a.1@text&&class.author@span@text",
-            "lastChapter": "class.update@a@text##^[^\\s]*\\s",
-            "name": "class.book-mid-info@h4@text"
-        },
-        "ruleSearch": {
-            "author": "class.author@text##.*：",
-            "bookList": "class.books-res@class.item",
-            "bookUrl": "a@href##$##,{\"webView\":true}",
-            "coverUrl": "class.cover@img@src",
-            "intro": "class.text@text",
-            "name": "class.title@text"
-        },
-        "ruleToc": {
-            "chapterList": "class.catalog_ls@a",
-            "chapterName": "text",
-            "chapterUrl": "href##$##,{\"webView\":true}"
-        },
-        "searchUrl": "/book/search.html?key={{key}}",
-        "weight": 0
+  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "",
+    "bookSourceName": "拷貝漫畫",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.copymanga.net",
+    "bookUrlPattern": "https://www.copymanga.net/comic/.*",
+    "customOrder": 0,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "日榜::https://www.copymanga.net/rank?table=day\n周榜::https://www.copymanga.net/rank?table=week\n月榜::https://www.copymanga.net/rank?table=month\n总榜::https://www.copymanga.net/rank?table=total",
+    "header": "",
+    "lastUpdateTime": 1618304934348,
+    "loginUrl": "https://www.copymanga.net",
+    "ruleBookInfo": {
+      "author": "@css:div.comicParticulars-title-right li:nth-of-type(3) a @text ##\\s##、",
+      "canReName": "true",
+      "coverUrl": "@css:div.comicParticulars-left-img > img @data-src",
+      "intro": "@css:p.intro @html",
+      "kind": "@css:div.comicParticulars-title-right li:nth-of-type(6) span.comicParticulars-right-txt @text && div.comicParticulars-title-right li:nth-of-type(7) a @text ##(^#)##",
+      "lastChapter": "@css:div.table-default-right > a @text",
+      "name": "@css:div.comicParticulars-title-right h6 @text",
+      "wordCount": "@css:div.comicParticulars-title-right li:nth-of-type(4) p @text ##$##🔥"
     },
-    {
-        "bookSourceComment": "",
-        "bookSourceGroup": "",
-        "bookSourceName": "笔趣阁",
-        "bookSourceType": 0,
-        "bookSourceUrl": "https://www.biquge.com.cn",
-        "bookUrlPattern": "",
-        "customOrder": 1,
-        "enabled": true,
-        "enabledExplore": false,
-        "exploreUrl": "",
-        "header": "",
-        "lastUpdateTime": 1617462686985,
-        "loginUrl": "",
-        "ruleBookInfo": {
-            "author": "[property=\"og:novel:author\"]@content",
-            "coverUrl": "[property=\"og:image\"]@content",
-            "intro": "[property=\"og:description\"]@content",
-            "kind": "[property=\"og:novel:category\"]@content&&[property=\"og:novel:status\"]@content",
-            "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content",
-            "name": "[property=\"og:title\"]@content"
-        },
-        "ruleContent": {
-            "content": "id.content@html"
-        },
-        "ruleExplore": {
-            "author": "class.author@class.name@text",
-            "bookList": "class.book-img-text@li",
-            "bookUrl": "class.book-mid-info@h4@a@href##$##,{\"webView\":true}",
-            "coverUrl": "class.book-img-box@img@src##/[^/]*$",
-            "intro": "class.intro@text",
-            "kind": "class.author@tag.a.1@text&&class.author@span@text",
-            "lastChapter": "class.update@a@text##^[^\\s]*\\s",
-            "name": "class.book-mid-info@h4@text"
-        },
-        "ruleSearch": {
-            "author": "class.result-game-item-info-tag.0@tag.span.1@text",
-            "bookList": "class.result-list@class.result-item",
-            "bookUrl": "class.result-item-title@a@href##$##,{\"webView\":true}",
-            "coverUrl": "class.result-game-item-pic@img@src",
-            "intro": "class.result-game-item-desc@text",
-            "kind": "class.result-game-item-info-tag.1@tag.span.1@text",
-            "lastChapter": "class.result-game-item-info-tag.3@a@text",
-            "name": "class.result-item-title@text"
-        },
-        "ruleToc": {
-            "chapterList": "id.list@a",
-            "chapterName": "text",
-            "chapterUrl": "href##$##,{\"webView\":true}"
-        },
-        "searchUrl": "/search.php?q={{key}}",
-        "weight": 0
+    "ruleContent": {
+      "content": "@css:ul.comicContent-image-list img @html ##.*data-(.*?)\\s.*##<img $1>"
     },
-    {
-        "bookSourceComment": "",
-        "bookSourceGroup": "",
-        "bookSourceName": "起点中文网",
-        "bookSourceType": 0,
-        "bookSourceUrl": "https://www.qidian.com",
-        "bookUrlPattern": "",
-        "customOrder": 2,
-        "enabled": true,
-        "enabledExplore": true,
-        "exploreUrl": "热门作品排行                                                        ::\n起点月票榜::/rank/yuepiao?style=1\n24小时热销榜::/rank/hotsales?style=1\n阅读指数榜::/rank/readIndex?style=1\n新增粉丝榜::/rank/newFans?style=1\n推荐票周榜::/rank/recom?style=1&dateType=1\n推荐票月榜::/rank/recom?style=1&dateType=2\n推荐票总榜::/rank/recom?style=1&dateType=3\n收藏榜::/rank/collect?style=1\nVIP更新榜::/rank/vipup?style=1\nVIP收藏榜::/rank/vipcollect?style=1\nVIP精品打赏榜::/rank/vipreward?style=1\n原创风云榜·新书::/rank/fengyun?chn=0&style=1\n新书排行                                                               ::\n签约作者新书榜::/rank/signnewbook?style=1\n公众作者新书榜::/rank/pubnewbook?style=1\n新人签约新书榜::/rank/newsign?style=1\n新人作者新书榜::/rank/newauthor?style=1\n起点女生网人气榜单                                             ::\n24小时热销榜::/mm/rank/hotsales?style=1\n新书热销::/mm/rank/newsales?style=1\n热门单订榜::/mm/rank/subscr?style=1\n起点月票榜::/mm/rank/yuepiao?style=1\n起点月票榜·新书::/mm/rank/yuepiao?chn=0&style=1\nVIP更新字数榜::/mm/rank/vipup?style=1\n签约作者新书榜::/mm/rank/signnewbook?style=1\n公众作家新书榜::/mm/rank/pubnewbook?style=1\n推荐票周榜::/mm/rank/recom?style=1&dateType=1\n推荐票月榜::/mm/rank/recom?style=1&dateType=2\n推荐票总榜::/mm/rank/recom?style=1&dateType=3\n收藏榜::/mm/rank/collect?style=1",
-        "header": "",
-        "lastUpdateTime": 1617462569988,
-        "loginUrl": "",
-        "ruleBookInfo": {},
-        "ruleContent": {},
-        "ruleExplore": {
-            "author": "class.author@class.name@text",
-            "bookList": "class.book-img-text@li",
-            "bookUrl": "class.book-mid-info@h4@a@href##$##,{\"webView\":true}",
-            "coverUrl": "class.book-img-box@img@src##/[^/]*$",
-            "intro": "class.intro@text",
-            "kind": "class.author@tag.a.1@text&&class.author@span@text",
-            "lastChapter": "class.update@a@text##^[^\\s]*\\s",
-            "name": "class.book-mid-info@h4@text"
-        },
-        "ruleSearch": {
-            "author": "class.author@class.name@text",
-            "bookList": "class.book-img-text@class.res-book-item",
-            "bookUrl": "class.book-mid-info@h4@a@href##$##,{\"webView\":true}",
-            "coverUrl": "class.book-img-box@img@src##/[^/]*$",
-            "intro": "class.intro@text",
-            "kind": "class.author@tag.a.1@text&&class.author@span@text",
-            "lastChapter": "class.update@a@text##^[^\\s]*\\s",
-            "name": "class.book-mid-info@h4@text",
-            "wordCount": "class.total@tag.span.0@text"
-        },
-        "ruleToc": {},
-        "searchUrl": "/search?kw={{key}}",
-        "weight": 0
+    "ruleExplore": {
+      "author": "@css:span.oneLines @text ##.*?\\s(.*)$##$1",
+      "bookList": "@css:ul.ranking-all > li",
+      "bookUrl": "@css:div.ranking-all-topThree > a @href##$##,{\"webView\": true}",
+      "coverUrl": "@css:div.ranking-all-topThree-img > img @data-src",
+      "name": "@css:p.threeLines @text",
+      "wordCount": "@css:div.update @text ##$##🔥"
     },
-    {
-        "bookSourceComment": "",
-        "bookSourceGroup": "",
-        "bookSourceName": "拷貝漫畫",
-        "bookSourceType": 0,
-        "bookSourceUrl": "https://www.copymanga.net",
-        "bookUrlPattern": "",
-        "customOrder": 3,
-        "enabled": true,
-        "enabledExplore": false,
-        "exploreUrl": "",
-        "header": "",
-        "lastUpdateTime": 1617462892415,
-        "loginUrl": "",
-        "ruleBookInfo": {
-            "intro": "class.intro@text",
-            "kind": "class.comicParticulars-tag@a@text&&class.comicParticulars-right-txt.-1@text",
-            "lastChapter": "class.table-default-right@a@text"
-        },
-        "ruleContent": {
-            "content": "class.comicContent-image-list@img@html##\\s+src=\".*?\"",
-            "replaceRegex": "##data-"
-        },
-        "ruleExplore": {
-            "author": "class.author@class.name@text",
-            "bookList": "class.book-img-text@li",
-            "bookUrl": "class.book-mid-info@h4@a@href##$##,{\"webView\":true}",
-            "coverUrl": "class.book-img-box@img@src##/[^/]*$",
-            "intro": "class.intro@text",
-            "kind": "class.author@tag.a.1@text&&class.author@span@text",
-            "lastChapter": "class.update@a@text##^[^\\s]*\\s",
-            "name": "class.book-mid-info@h4@text"
-        },
-        "ruleSearch": {
-            "author": "$.author[*].name",
-            "bookList": "$.results.list[*]",
-            "bookUrl": "/comic/{{$.path_word}},{\"webView\":true}",
-            "coverUrl": "$.cover",
-            "name": "$.name"
-        },
-        "ruleToc": {
-            "chapterList": "id.default全部@tag.ul.0@a",
-            "chapterName": "text",
-            "chapterUrl": "href##$##,{\"webView\":true}"
-        },
-        "searchUrl": "/api/kb/web/search/comics?offset=0&platform=2&limit=12&q={{key}}&q_type=",
-        "weight": 0
-    }
+    "ruleSearch": {
+      "author": "$.author[*].name ##\\s##、",
+      "bookList": "$.results.list[*]",
+      "bookUrl": "/comic/{{$.path_word}},{\"webView\": true}",
+      "coverUrl": "$.cover",
+      "intro": "$.alias",
+      "name": "$.name",
+      "wordCount": "$.popular ##$##🔥"
+    },
+    "ruleToc": {
+      "chapterList": "@css:div#default全部 > ul:nth-of-type(1) > a",
+      "chapterName": "text",
+      "chapterUrl": "href##$##,{\"webView\": true}"
+    },
+    "searchUrl": "/api/kb/web/search/comics?offset=0&platform=2&limit=12&q={{key}}&q_type=",
+    "weight": 0
+  },
+  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "",
+    "bookSourceName": "新笔趣阁",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://m.xquge.com",
+    "bookUrlPattern": "https://m.xquge.com/book/.*",
+    "customOrder": 1,
+    "enabled": true,
+    "enabledExplore": false,
+    "exploreUrl": "",
+    "header": "",
+    "lastUpdateTime": 1618304758786,
+    "loginUrl": "https://m.xquge.com",
+    "ruleBookInfo": {
+      "author": "@css:ul.info > li:nth-of-type(1) @text ##.*：",
+      "canReName": "true",
+      "coverUrl": "@css:div.bg > img @src",
+      "intro": "@css:article.article >div.body @html",
+      "kind": "@css:ul.info > li:nth-of-type(3) @text && ul.info > li:nth-of-type(2) > a @text ##.*：",
+      "lastChapter": "@css:ul.newChapter > li:nth-of-type(1) @text##最新",
+      "name": "@css:h1.title @text",
+      "tocUrl": "@css:a.change.loading:nth-of-type(1) @href ##$##,{\"webView\": true}",
+      "wordCount": "@css:div.bar > div:nth-of-type(1) @text ##.*?\\s(.*)$##$1🔥"
+    },
+    "ruleContent": {
+      "content": "@css:p.line @html"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "@css:div.author @text ##.*：",
+      "bookList": "@css:div.books-res > div.item",
+      "bookUrl": "@css:a.link @href ##$##,{\"webView\": true}",
+      "coverUrl": "@css:div.cover > img @src",
+      "intro": "@css:div.text @text",
+      "name": "@css:div.title @text"
+    },
+    "ruleToc": {
+      "chapterList": "@css:ul.catalog_ls a",
+      "chapterName": "text",
+      "chapterUrl": "href ##$##,{\"webView\": true}"
+    },
+    "searchUrl": "/book/search.html?key={{key}},{\"webView\": true}",
+    "weight": 0
+  },
+  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "",
+    "bookSourceName": "笔趣阁",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.biquge.com.cn",
+    "bookUrlPattern": "https://www.biquge.com.cn/book/.*",
+    "customOrder": 2,
+    "enabled": true,
+    "enabledExplore": false,
+    "exploreUrl": "",
+    "header": "",
+    "lastUpdateTime": 1618303208142,
+    "loginUrl": "https://www.biquge.com.cn/",
+    "ruleBookInfo": {
+      "author": "@css:meta[property=\"og:novel:author\"] @content",
+      "canReName": "true",
+      "coverUrl": "@css:meta[property=\"og:image\"] @content",
+      "intro": "@css:meta[property=\"og:description\"] @content",
+      "kind": "@css:meta[property=\"og:novel:status\"] @content && meta[property=\"og:novel:category\"] @content",
+      "lastChapter": "@css:meta[property=\"og:novel:latest_chapter_name\"] @content",
+      "name": "@css:meta[property=\"og:title\"] @content"
+    },
+    "ruleContent": {
+      "content": "@css:div#content @html"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "@css:p.result-game-item-info-tag:nth-of-type(1) > span:nth-of-type(2) @text",
+      "bookList": "@css:div.result-item.result-game-item",
+      "bookUrl": "@css:a.result-game-item-title-link @href ##$##,{\"webView\": true}",
+      "coverUrl": "@css:img.result-game-item-pic-link-img @src",
+      "intro": "@css:p.result-game-item-desc @html",
+      "kind": "@css:p.result-game-item-info-tag:nth-of-type(2) > span:nth-of-type(2) @text",
+      "lastChapter": "@css:a[cpos=\"newchapter\"] @text",
+      "name": "@css:a.result-game-item-title-link @text"
+    },
+    "ruleToc": {
+      "chapterList": "@css:div#list a",
+      "chapterName": "text",
+      "chapterUrl": "href ##$##,{\"webView\":true}"
+    },
+    "searchUrl": "/search.php?q={{key}},{webView: \"true\"}",
+    "weight": 0
+  },
+  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "",
+    "bookSourceName": "起点中文网",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.qidian.com",
+    "bookUrlPattern": "https://book.qidian.com/info/.*",
+    "customOrder": 3,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "热门作品排行                                                        ::\n起点月票榜::/rank/yuepiao?style=1\n24小时热销榜::/rank/hotsales?style=1\n阅读指数榜::/rank/readIndex?style=1\n新增粉丝榜::/rank/newFans?style=1\n推荐票周榜::/rank/recom?style=1&dateType=1\n推荐票月榜::/rank/recom?style=1&dateType=2\n推荐票总榜::/rank/recom?style=1&dateType=3\n收藏榜::/rank/collect?style=1\nVIP更新榜::/rank/vipup?style=1\nVIP收藏榜::/rank/vipcollect?style=1\nVIP精品打赏榜::/rank/vipreward?style=1\n原创风云榜·新书::/rank/fengyun?chn=0&style=1\n新书排行                                                               ::\n签约作者新书榜::/rank/signnewbook?style=1\n公众作者新书榜::/rank/pubnewbook?style=1\n新人签约新书榜::/rank/newsign?style=1\n新人作者新书榜::/rank/newauthor?style=1\n起点女生网人气榜单                                             ::\n24小时热销榜::/mm/rank/hotsales?style=1\n新书热销::/mm/rank/newsales?style=1\n热门单订榜::/mm/rank/subscr?style=1\n起点月票榜::/mm/rank/yuepiao?style=1\n起点月票榜·新书::/mm/rank/yuepiao?chn=0&style=1\nVIP更新字数榜::/mm/rank/vipup?style=1\n签约作者新书榜::/mm/rank/signnewbook?style=1\n公众作家新书榜::/mm/rank/pubnewbook?style=1\n推荐票周榜::/mm/rank/recom?style=1&dateType=1\n推荐票月榜::/mm/rank/recom?style=1&dateType=2\n推荐票总榜::/mm/rank/recom?style=1&dateType=3\n收藏榜::/mm/rank/collect?style=1",
+    "header": "",
+    "lastUpdateTime": 1618299057014,
+    "loginUrl": "https://www.qidian.com",
+    "ruleBookInfo": {
+      "author": "@css:a.writer @text",
+      "canReName": "true",
+      "coverUrl": "@css:div.book-information.cf > div.book-img img @src ##/[^/]*$",
+      "intro": "@css:div.book-intro @html",
+      "kind": "@css:p.tag @text ##\\s##,",
+      "lastChapter": "@css:li.update a @text",
+      "name": "@css:div.book-info > h1 > em @text",
+      "tocUrl": "@css:div.crumbs-nav a:nth-of-type(4) @href ##(^.*)##$1#Catalog,{webView: \"true\"}"
+    },
+    "ruleContent": {},
+    "ruleExplore": {
+      "author": "@css:p.author > a.name @text",
+      "bookList": "@css:div.rank-view-list li",
+      "bookUrl": "@css:h4 > a @href ##$##,{\"webView\": true}",
+      "coverUrl": "@css:div.book-img-box img @src ##/[^/]*$",
+      "intro": "@css:p.intro @html",
+      "kind": "@css:p.author > span @text && p.author > a:nth-of-type(2) @text",
+      "lastChapter": "@css:p.update > a @text ##^[^\\s]*\\s",
+      "name": "@css:h4 @text"
+    },
+    "ruleSearch": {
+      "author": "@css:p.author > a.name @text",
+      "bookList": "@css:li.res-book-item",
+      "bookUrl": "@css:h4 > a @href ##$##,{\"webView\": true}",
+      "coverUrl": "@css:div.book-img-box img @src ##/[^/]*$",
+      "intro": "@css:p.intro @html",
+      "kind": "@css:p.author > span @text && p.author > a:nth-of-type(2) @text",
+      "lastChapter": "@css:p.update > a @text ##^[^\\s]*\\s",
+      "name": "@css:h4 @text",
+      "wordCount": "@css:div.total > p:nth-of-type(1) > span @text ##$##字"
+    },
+    "ruleToc": {
+      "chapterList": "@css:div.volume li",
+      "chapterName": "@css:a @text",
+      "chapterUrl": "@css:a @href ##$##,{\"webView\": true}",
+      "isVip": "@css:em @text"
+    },
+    "searchUrl": "/search?kw={{key}},{webView: \"true\"}",
+    "weight": 1
+  },
+  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "",
+    "bookSourceName": "晋江文学城",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.jjwxc.net",
+    "bookUrlPattern": "https://www.jjwxc.net/onebook.php.*",
+    "customOrder": 4,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "新晋作者榜::https://www.jjwxc.net/topten.php?orderstr=3&t=0\n月度排行榜::https://www.jjwxc.net/topten.php?orderstr=5&t=0\n季度排行榜::https://www.jjwxc.net/topten.php?orderstr=4&t=0\n半年排行榜::https://www.jjwxc.net/topten.php?orderstr=6&t=0\n总分排行榜::https://www.jjwxc.net/topten.php?orderstr=7&t=0\n长篇小说字数榜::https://www.jjwxc.net/topten.php?orderstr=8&t=0\n长生殿::https://www.jjwxc.net/topten.php?orderstr=9&t=0\n霸王票总榜::https://www.jjwxc.net/topten.php?orderstr=13&t=0\n勤奋指数榜::https://www.jjwxc.net/topten.php?orderstr=15&t=0\n营养液灌溉榜::https://www.jjwxc.net/topten.php?orderstr=18&t=0\n驻站作者新文::https://www.jjwxc.net/topten.php?orderstr=19&t=0\n完结高分排行榜::https://www.jjwxc.net/topten.php?orderstr=20&t=0\n千字金榜::https://www.jjwxc.net/topten.php?orderstr=21&t=0\n完结全订榜::https://www.jjwxc.net/topten.php?orderstr=22&t=0",
+    "header": "",
+    "lastUpdateTime": 1618299069638,
+    "loginUrl": "https://www.jjwxc.net",
+    "ruleBookInfo": {
+      "author": "@css:span[itemprop=\"author\"] @text",
+      "canReName": "true",
+      "coverUrl": "@css:img[itemprop=\"image\"] @src",
+      "intro": "@css:div#novelintro @html",
+      "kind": "@css:span[itemprop=\"updataStatus\"] @text && span[itemprop=\"genre\"] @text ##-##,",
+      "lastChapter": "@css:tr[itemprop=\"chapter newestChapter\"] a[itemprop=\"url\"] @text",
+      "name": "@css:h1[itemprop=\"name\"] @text",
+      "wordCount": "@css:span[itemprop=\"wordCount\"] @text"
+    },
+    "ruleContent": {},
+    "ruleExplore": {
+      "author": "@css:td:nth-of-type(2) > a @text",
+      "bookList": "@css:table:nth-of-type(3) tr:nth-of-type(n+2)",
+      "bookUrl": "@css:td:nth-of-type(3) > a @href ##$##,{webView: \"true\"}",
+      "intro": "@css:td:nth-of-type(3) > a @rel",
+      "kind": "@css:td:nth-of-type(6) @text && td:nth-of-type(4) @text ##-##,",
+      "name": "@css:td:nth-of-type(3) > a @text",
+      "wordCount": "@css:td:nth-of-type(7) @text ##$##字"
+    },
+    "ruleSearch": {
+      "author": "@css:div.info > a @text",
+      "bookList": "@css:#search_result > div:not(.page)",
+      "bookUrl": "@css:h3.title > a @href ##$##,{webView: \"true\"}",
+      "intro": "@css:div.intro @html",
+      "kind": "@css:div.info @text ##.*进度：(.*?)\\s.*文章类型：(.*?)-(.*?)-(.*?)-(.*?)\\s.*##$1,$2,$3,$4,$5",
+      "name": "@css:h3.title > a @text"
+    },
+    "ruleToc": {
+      "chapterList": "@css:tr[itemprop^=\"chapter\"]",
+      "chapterName": "@css:a[itemprop=\"url\"] @text",
+      "chapterUrl": "@css:a[itemprop=\"url\"] @href || a[itemprop=\"url\"] @rel ##$##,{webView: \"true\"}",
+      "isVip": "@css:a[style=\"cursor:pointer\"] @text",
+      "updateTime": "@css:td:nth-of-type(3) @text"
+    },
+    "searchUrl": "/search.php?kw={{java.encodeURI(key, enc=\"gbk\")}}&t=1,{webView: \"true\"}",
+    "weight": 1
+  }
 ]
