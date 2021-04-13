@@ -1,7 +1,7 @@
 [
   {
     "bookSourceComment": "",
-    "bookSourceGroup": "",
+    "bookSourceGroup": "漫画",
     "bookSourceName": "拷貝漫畫",
     "bookSourceType": 0,
     "bookSourceUrl": "https://www.copymanga.net",
@@ -11,7 +11,7 @@
     "enabledExplore": true,
     "exploreUrl": "日榜::https://www.copymanga.net/rank?table=day\n周榜::https://www.copymanga.net/rank?table=week\n月榜::https://www.copymanga.net/rank?table=month\n总榜::https://www.copymanga.net/rank?table=total",
     "header": "",
-    "lastUpdateTime": 1618304934348,
+    "lastUpdateTime": 1618313656815,
     "loginUrl": "https://www.copymanga.net",
     "ruleBookInfo": {
       "author": "@css:div.comicParticulars-title-right li:nth-of-type(3) a @text ##\\s##、",
@@ -143,7 +143,7 @@
   },
   {
     "bookSourceComment": "",
-    "bookSourceGroup": "",
+    "bookSourceGroup": "正版",
     "bookSourceName": "起点中文网",
     "bookSourceType": 0,
     "bookSourceUrl": "https://www.qidian.com",
@@ -153,7 +153,7 @@
     "enabledExplore": true,
     "exploreUrl": "热门作品排行                                                        ::\n起点月票榜::/rank/yuepiao?style=1\n24小时热销榜::/rank/hotsales?style=1\n阅读指数榜::/rank/readIndex?style=1\n新增粉丝榜::/rank/newFans?style=1\n推荐票周榜::/rank/recom?style=1&dateType=1\n推荐票月榜::/rank/recom?style=1&dateType=2\n推荐票总榜::/rank/recom?style=1&dateType=3\n收藏榜::/rank/collect?style=1\nVIP更新榜::/rank/vipup?style=1\nVIP收藏榜::/rank/vipcollect?style=1\nVIP精品打赏榜::/rank/vipreward?style=1\n原创风云榜·新书::/rank/fengyun?chn=0&style=1\n新书排行                                                               ::\n签约作者新书榜::/rank/signnewbook?style=1\n公众作者新书榜::/rank/pubnewbook?style=1\n新人签约新书榜::/rank/newsign?style=1\n新人作者新书榜::/rank/newauthor?style=1\n起点女生网人气榜单                                             ::\n24小时热销榜::/mm/rank/hotsales?style=1\n新书热销::/mm/rank/newsales?style=1\n热门单订榜::/mm/rank/subscr?style=1\n起点月票榜::/mm/rank/yuepiao?style=1\n起点月票榜·新书::/mm/rank/yuepiao?chn=0&style=1\nVIP更新字数榜::/mm/rank/vipup?style=1\n签约作者新书榜::/mm/rank/signnewbook?style=1\n公众作家新书榜::/mm/rank/pubnewbook?style=1\n推荐票周榜::/mm/rank/recom?style=1&dateType=1\n推荐票月榜::/mm/rank/recom?style=1&dateType=2\n推荐票总榜::/mm/rank/recom?style=1&dateType=3\n收藏榜::/mm/rank/collect?style=1",
     "header": "",
-    "lastUpdateTime": 1618299057014,
+    "lastUpdateTime": 1618313618547,
     "loginUrl": "https://www.qidian.com",
     "ruleBookInfo": {
       "author": "@css:a.writer @text",
@@ -198,7 +198,7 @@
   },
   {
     "bookSourceComment": "",
-    "bookSourceGroup": "",
+    "bookSourceGroup": "正版",
     "bookSourceName": "晋江文学城",
     "bookSourceType": 0,
     "bookSourceUrl": "https://www.jjwxc.net",
@@ -208,7 +208,7 @@
     "enabledExplore": true,
     "exploreUrl": "新晋作者榜::https://www.jjwxc.net/topten.php?orderstr=3&t=0\n月度排行榜::https://www.jjwxc.net/topten.php?orderstr=5&t=0\n季度排行榜::https://www.jjwxc.net/topten.php?orderstr=4&t=0\n半年排行榜::https://www.jjwxc.net/topten.php?orderstr=6&t=0\n总分排行榜::https://www.jjwxc.net/topten.php?orderstr=7&t=0\n长篇小说字数榜::https://www.jjwxc.net/topten.php?orderstr=8&t=0\n长生殿::https://www.jjwxc.net/topten.php?orderstr=9&t=0\n霸王票总榜::https://www.jjwxc.net/topten.php?orderstr=13&t=0\n勤奋指数榜::https://www.jjwxc.net/topten.php?orderstr=15&t=0\n营养液灌溉榜::https://www.jjwxc.net/topten.php?orderstr=18&t=0\n驻站作者新文::https://www.jjwxc.net/topten.php?orderstr=19&t=0\n完结高分排行榜::https://www.jjwxc.net/topten.php?orderstr=20&t=0\n千字金榜::https://www.jjwxc.net/topten.php?orderstr=21&t=0\n完结全订榜::https://www.jjwxc.net/topten.php?orderstr=22&t=0",
     "header": "",
-    "lastUpdateTime": 1618299069638,
+    "lastUpdateTime": 1618313623378,
     "loginUrl": "https://www.jjwxc.net",
     "ruleBookInfo": {
       "author": "@css:span[itemprop=\"author\"] @text",
@@ -246,6 +246,62 @@
       "updateTime": "@css:td:nth-of-type(3) @text"
     },
     "searchUrl": "/search.php?kw={{java.encodeURI(key, enc=\"gbk\")}}&t=1,{webView: \"true\"}",
+    "weight": 1
+  },
+  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "正版",
+    "bookSourceName": "纵横中文网",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.zongheng.com/",
+    "bookUrlPattern": "http://book.zongheng.com/book/.*",
+    "customOrder": 5,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "月票榜::/rank/details.html?rt=1&d=1\n24小时畅销榜::http://www.zongheng.com/rank/details.html?rt=3&d=1\n新书榜::http://www.zongheng.com/rank/details.html?rt=4&d=1\n点击榜::http://www.zongheng.com/rank/details.html?rt=5&d=1\n推荐榜::http://www.zongheng.com/rank/details.html?rt=6&d=1\n捧场榜::http://www.zongheng.com/rank/details.html?rt=7&d=1\n完结榜::http://www.zongheng.com/rank/details.html?rt=8&d=1\n新书订阅榜::http://www.zongheng.com/rank/details.html?rt=9&d=1\n24小时更新榜::http://www.zongheng.com/rank/details.html?rt=10&d=1",
+    "header": "",
+    "lastUpdateTime": 1618313627364,
+    "loginUrl": "http://www.zongheng.com/",
+    "ruleBookInfo": {
+      "author": "@css:div.au-name @text",
+      "canReName": "true",
+      "coverUrl": "@css:div.book-img > img @src",
+      "intro": "@css:div.book-dec > p @html",
+      "kind": "@css:div.book-label @text ##\\s##,",
+      "lastChapter": "@css:div.book-new-chapter > div.tit @text",
+      "name": "@css:div.book-name @text",
+      "tocUrl": "@css:a.all-catalog @href ##$##,{webView: \"true\"}",
+      "wordCount": "@css:div.nums > span:nth-of-type(1) > i @text ##$##字"
+    },
+    "ruleContent": {},
+    "ruleExplore": {
+      "author": "@css:div.rank_d_b_cate > a:nth-of-type(1) @text",
+      "bookList": "@css:div.rank_d_list",
+      "bookUrl": "@css:div.rank_d_b_name > a @href ##$##,{webView: \"true\"}",
+      "coverUrl": "@css:div.rank_d_book_img img @src",
+      "intro": "@css:div.rank_d_b_info @html",
+      "kind": "@css:div.rank_d_b_cate > a:nth-of-type(3) @text && div.rank_d_b_cate > a:nth-of-type(2) @text",
+      "lastChapter": "@css:div.rank_d_b_last > a @ownText",
+      "name": "@css:div.rank_d_b_name @text",
+      "wordCount": "@css:div.rank_d_b_ticket @text"
+    },
+    "ruleSearch": {
+      "author": "@css:div.bookinfo > a:nth-of-type(1) @text",
+      "bookList": "@css:div.search-result-list",
+      "bookUrl": "@css:h2.tit a @href ##$##,{webView: \"true\"}",
+      "coverUrl": "@css:div.imgbox img @src",
+      "intro": "@css:p @html",
+      "kind": "@css:div.bookinfo > span:nth-of-type(1) @text && div.bookinfo > a:nth-of-type(2) @text",
+      "name": "@css:h2.tit @text",
+      "wordCount": "@css:div.bookinfo > span:nth-of-type(2) @text"
+    },
+    "ruleToc": {
+      "chapterList": "@css:ul.chapter-list > li",
+      "chapterName": "@css:a @text",
+      "chapterUrl": "@css:a @href ##$##,{webView: \"true\"}",
+      "isVip": "class ##\\scol-4"
+    },
+    "searchUrl": "http://search.zongheng.com/s?keyword={{key}},{\"webView\": true}",
     "weight": 1
   }
 ]
