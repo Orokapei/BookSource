@@ -9,9 +9,9 @@
     "customOrder": 0,
     "enabled": true,
     "enabledExplore": true,
-    "exploreUrl": "日榜::https://www.copymanga.net/rank?table=day\n周榜::https://www.copymanga.net/rank?table=week\n月榜::https://www.copymanga.net/rank?table=month\n总榜::https://www.copymanga.net/rank?table=total",
+    "exploreUrl": "日榜::/rank?table=day\n周榜::/rank?table=week\n月榜::/rank?table=month\n总榜::/rank?table=total",
     "header": "",
-    "lastUpdateTime": 1618313656815,
+    "lastUpdateTime": 1618379945311,
     "loginUrl": "https://www.copymanga.net",
     "ruleBookInfo": {
       "author": "@css:div.comicParticulars-title-right li:nth-of-type(3) a @text ##\\s##、",
@@ -57,13 +57,13 @@
     "bookSourceName": "新笔趣阁",
     "bookSourceType": 0,
     "bookSourceUrl": "https://m.xquge.com",
-    "bookUrlPattern": "https://m.xquge.com/book/.*",
+    "bookUrlPattern": "https://m.xquge.com/book/.*html$",
     "customOrder": 1,
     "enabled": true,
     "enabledExplore": false,
     "exploreUrl": "",
     "header": "",
-    "lastUpdateTime": 1618304758786,
+    "lastUpdateTime": 1618382850573,
     "loginUrl": "https://m.xquge.com",
     "ruleBookInfo": {
       "author": "@css:ul.info > li:nth-of-type(1) @text ##.*：",
@@ -153,7 +153,7 @@
     "enabledExplore": true,
     "exploreUrl": "热门作品排行                                                        ::\n起点月票榜::/rank/yuepiao?style=1\n24小时热销榜::/rank/hotsales?style=1\n阅读指数榜::/rank/readIndex?style=1\n新增粉丝榜::/rank/newFans?style=1\n推荐票周榜::/rank/recom?style=1&dateType=1\n推荐票月榜::/rank/recom?style=1&dateType=2\n推荐票总榜::/rank/recom?style=1&dateType=3\n收藏榜::/rank/collect?style=1\nVIP更新榜::/rank/vipup?style=1\nVIP收藏榜::/rank/vipcollect?style=1\nVIP精品打赏榜::/rank/vipreward?style=1\n原创风云榜·新书::/rank/fengyun?chn=0&style=1\n新书排行                                                               ::\n签约作者新书榜::/rank/signnewbook?style=1\n公众作者新书榜::/rank/pubnewbook?style=1\n新人签约新书榜::/rank/newsign?style=1\n新人作者新书榜::/rank/newauthor?style=1\n起点女生网人气榜单                                             ::\n24小时热销榜::/mm/rank/hotsales?style=1\n新书热销::/mm/rank/newsales?style=1\n热门单订榜::/mm/rank/subscr?style=1\n起点月票榜::/mm/rank/yuepiao?style=1\n起点月票榜·新书::/mm/rank/yuepiao?chn=0&style=1\nVIP更新字数榜::/mm/rank/vipup?style=1\n签约作者新书榜::/mm/rank/signnewbook?style=1\n公众作家新书榜::/mm/rank/pubnewbook?style=1\n推荐票周榜::/mm/rank/recom?style=1&dateType=1\n推荐票月榜::/mm/rank/recom?style=1&dateType=2\n推荐票总榜::/mm/rank/recom?style=1&dateType=3\n收藏榜::/mm/rank/collect?style=1",
     "header": "",
-    "lastUpdateTime": 1618313618547,
+    "lastUpdateTime": 1618381435596,
     "loginUrl": "https://www.qidian.com",
     "ruleBookInfo": {
       "author": "@css:a.writer @text",
@@ -206,9 +206,9 @@
     "customOrder": 4,
     "enabled": true,
     "enabledExplore": true,
-    "exploreUrl": "新晋作者榜::https://www.jjwxc.net/topten.php?orderstr=3&t=0\n月度排行榜::https://www.jjwxc.net/topten.php?orderstr=5&t=0\n季度排行榜::https://www.jjwxc.net/topten.php?orderstr=4&t=0\n半年排行榜::https://www.jjwxc.net/topten.php?orderstr=6&t=0\n总分排行榜::https://www.jjwxc.net/topten.php?orderstr=7&t=0\n长篇小说字数榜::https://www.jjwxc.net/topten.php?orderstr=8&t=0\n长生殿::https://www.jjwxc.net/topten.php?orderstr=9&t=0\n霸王票总榜::https://www.jjwxc.net/topten.php?orderstr=13&t=0\n勤奋指数榜::https://www.jjwxc.net/topten.php?orderstr=15&t=0\n营养液灌溉榜::https://www.jjwxc.net/topten.php?orderstr=18&t=0\n驻站作者新文::https://www.jjwxc.net/topten.php?orderstr=19&t=0\n完结高分排行榜::https://www.jjwxc.net/topten.php?orderstr=20&t=0\n千字金榜::https://www.jjwxc.net/topten.php?orderstr=21&t=0\n完结全订榜::https://www.jjwxc.net/topten.php?orderstr=22&t=0",
+    "exploreUrl": "新晋作者榜::/topten.php?orderstr=3&t=0\n月度排行榜::/topten.php?orderstr=5&t=0\n季度排行榜::/topten.php?orderstr=4&t=0\n半年排行榜::/topten.php?orderstr=6&t=0\n总分排行榜::/topten.php?orderstr=7&t=0\n长篇小说字数榜::/topten.php?orderstr=8&t=0\n长生殿::/topten.php?orderstr=9&t=0\n霸王票总榜::/topten.php?orderstr=13&t=0\n勤奋指数榜::/topten.php?orderstr=15&t=0\n营养液灌溉榜::/topten.php?orderstr=18&t=0\n驻站作者新文::/topten.php?orderstr=19&t=0\n完结高分排行榜::/topten.php?orderstr=20&t=0\n千字金榜::/topten.php?orderstr=21&t=0\n完结全订榜::/topten.php?orderstr=22&t=0",
     "header": "",
-    "lastUpdateTime": 1618313623378,
+    "lastUpdateTime": 1618379959079,
     "loginUrl": "https://www.jjwxc.net",
     "ruleBookInfo": {
       "author": "@css:span[itemprop=\"author\"] @text",
@@ -245,7 +245,7 @@
       "isVip": "@css:a[style=\"cursor:pointer\"] @text",
       "updateTime": "@css:td:nth-of-type(3) @text"
     },
-    "searchUrl": "/search.php?kw={{java.encodeURI(key, enc=\"gbk\")}}&t=1,{webView: \"true\"}",
+    "searchUrl": "/search.php?kw={{java.encodeURI(key, \"gbk\")}}&t=1,{webView: \"true\"}",
     "weight": 1
   },
   {
@@ -258,9 +258,9 @@
     "customOrder": 5,
     "enabled": true,
     "enabledExplore": true,
-    "exploreUrl": "月票榜::/rank/details.html?rt=1&d=1\n24小时畅销榜::http://www.zongheng.com/rank/details.html?rt=3&d=1\n新书榜::http://www.zongheng.com/rank/details.html?rt=4&d=1\n点击榜::http://www.zongheng.com/rank/details.html?rt=5&d=1\n推荐榜::http://www.zongheng.com/rank/details.html?rt=6&d=1\n捧场榜::http://www.zongheng.com/rank/details.html?rt=7&d=1\n完结榜::http://www.zongheng.com/rank/details.html?rt=8&d=1\n新书订阅榜::http://www.zongheng.com/rank/details.html?rt=9&d=1\n24小时更新榜::http://www.zongheng.com/rank/details.html?rt=10&d=1",
+    "exploreUrl": "月票榜::/rank/details.html?rt=1&d=1\n24小时畅销榜::/rank/details.html?rt=3&d=1\n新书榜::/rank/details.html?rt=4&d=1\n点击榜::/rank/details.html?rt=5&d=1\n推荐榜::/rank/details.html?rt=6&d=1\n捧场榜::/rank/details.html?rt=7&d=1\n完结榜::/rank/details.html?rt=8&d=1\n新书订阅榜::/rank/details.html?rt=9&d=1\n24小时更新榜::/rank/details.html?rt=10&d=1",
     "header": "",
-    "lastUpdateTime": 1618313627364,
+    "lastUpdateTime": 1618379969236,
     "loginUrl": "http://www.zongheng.com/",
     "ruleBookInfo": {
       "author": "@css:div.au-name @text",
