@@ -11,7 +11,7 @@
     "enabledExplore": false,
     "exploreUrl": "",
     "header": "",
-    "lastUpdateTime": 1620356076805,
+    "lastUpdateTime": 1624813721159,
     "loginUrl": "https://m.xquge.com",
     "ruleBookInfo": {
       "author": "@css:ul.info > li:nth-of-type(1) @text ##.*：",
@@ -93,15 +93,15 @@
     "bookSourceGroup": "",
     "bookSourceName": "笔趣阁",
     "bookSourceType": 0,
-    "bookSourceUrl": "https://www.biquge.com.cn",
-    "bookUrlPattern": "https://www.biquge.com.cn/book/.*",
+    "bookSourceUrl": "https://www.sobiquge.com/",
+    "bookUrlPattern": "https://www.sobiquge.com/book/.*",
     "customOrder": 2,
     "enabled": true,
     "enabledExplore": false,
     "exploreUrl": "",
     "header": "",
-    "lastUpdateTime": 1620355761940,
-    "loginUrl": "https://www.biquge.com.cn/",
+    "lastUpdateTime": 1624813904115,
+    "loginUrl": "https://www.sobiquge.com/",
     "ruleBookInfo": {
       "author": "@css:meta[property=\"og:novel:author\"] @content",
       "canReName": "true",
@@ -131,6 +131,53 @@
       "chapterUrl": "href ##$##,{\"webView\":true}"
     },
     "searchUrl": "/search.php?q={{key}},{webView: \"true\"}",
+    "weight": 0
+  },
+  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "",
+    "bookSourceName": "笔趣阁APP",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://souxs.pigqq.com",
+    "bookUrlPattern": "",
+    "customOrder": 3,
+    "enabled": true,
+    "enabledExplore": false,
+    "exploreUrl": "",
+    "header": "",
+    "lastUpdateTime": 1625042466393,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "$.data.Author",
+      "canReName": "true",
+      "coverUrl": "https://imgapixs.pysmei.com/BookFiles/Bookimages/{{$.data.Img}}",
+      "intro": "$.data.Desc",
+      "kind": "$.data.CName && .data.BookStatus",
+      "lastChapter": "$.data.LastChapter",
+      "name": "$.data.Name@js:java.put('sm',result)",
+      "tocUrl": "<js>\"https://infosxs.pigqq.com/BookFiles/Html/\"+java.get(\"pnid\")+\"/\"+java.get(\"id\")+\"/index.html\"</js>"
+    },
+    "ruleContent": {
+      "content": "$.data.content"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "$.Author",
+      "bookList": "$.data",
+      "bookUrl": "$.Id<js>pnid=parseInt(Number(result)/1000+1);id=result;java.put(\"pnid\",pnid);java.put(\"id\",id);result=\"https://infosxs.pigqq.com/BookFiles/Html/\"+pnid+\"/\"+id+\"/info.html\"</js>",
+      "coverUrl": "$.Img",
+      "intro": "$.Desc",
+      "kind": "$.BookStatus && .CName",
+      "lastChapter": "$.LastChapter",
+      "name": "$.Name",
+      "wordCount": "$.hitCount ##$##点击"
+    },
+    "ruleToc": {
+      "chapterList": "$.data.list[*]list[*]",
+      "chapterName": "$.name",
+      "chapterUrl": "$.id<js>\"https://contentxs.pigqq.com/BookFiles/Html/\"+java.get(\"pnid\")+\"/\"+java.get(\"id\")+\"/\"+result+\".html\"</js>"
+    },
+    "searchUrl": "https://souxs.pigqq.com/search.aspx?key={{key}}&page=1&siteid=app2",
     "weight": 0
   },
   {
@@ -260,7 +307,7 @@
     "enabledExplore": true,
     "exploreUrl": "新晋作者榜::/topten.php?orderstr=3&t=0\n月度排行榜::/topten.php?orderstr=5&t=0\n季度排行榜::/topten.php?orderstr=4&t=0\n半年排行榜::/topten.php?orderstr=6&t=0\n总分排行榜::/topten.php?orderstr=7&t=0\n长篇小说字数榜::/topten.php?orderstr=8&t=0\n长生殿::/topten.php?orderstr=9&t=0\n霸王票总榜::/topten.php?orderstr=13&t=0\n勤奋指数榜::/topten.php?orderstr=15&t=0\n营养液灌溉榜::/topten.php?orderstr=18&t=0\n驻站作者新文::/topten.php?orderstr=19&t=0\n完结高分排行榜::/topten.php?orderstr=20&t=0\n千字金榜::/topten.php?orderstr=21&t=0\n完结全订榜::/topten.php?orderstr=22&t=0",
     "header": "",
-    "lastUpdateTime": 1620356134647,
+    "lastUpdateTime": 1624503419968,
     "loginUrl": "https://www.jjwxc.net",
     "ruleBookInfo": {
       "author": "@css:span[itemprop=\"author\"] @text",
@@ -314,7 +361,7 @@
     "enabledExplore": true,
     "exploreUrl": "日榜::/rank?table=day\n周榜::/rank?table=week\n月榜::/rank?table=month\n总榜::/rank?table=total",
     "header": "",
-    "lastUpdateTime": 1620356140680,
+    "lastUpdateTime": 1625231453341,
     "loginUrl": "https://www.copymanga.net",
     "ruleBookInfo": {
       "author": "@css:div.comicParticulars-title-right li:nth-of-type(3) a @text ##\\s##、",
@@ -327,7 +374,8 @@
       "wordCount": "@css:div.comicParticulars-title-right li:nth-of-type(4) p @text ##$##🔥"
     },
     "ruleContent": {
-      "content": "@css:ul.comicContent-image-list img @html ##.*data-(.*?)\\s.*##<img $1>"
+      "content": "@css:ul.comicContent-image-list img @html ##.*data-(.*?)\\s.*##<img $1>&zwnj;",
+      "imageStyle": "FULL"
     },
     "ruleExplore": {
       "author": "@css:span.oneLines @text ##.*?\\s(.*)$##$1",
@@ -351,7 +399,7 @@
       "chapterName": "text",
       "chapterUrl": "href##$##,{\"webView\": true}"
     },
-    "searchUrl": "/api/kb/web/search/comics?offset=0&platform=2&limit=12&q={{key}}&q_type=",
+    "searchUrl": "/api/kb/web/searchc/comics?offset=0&platform=2&limit=12&q={{key}}&q_type=",
     "weight": 0
   }
 ]
