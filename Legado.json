@@ -145,7 +145,7 @@
     "enabledExplore": false,
     "exploreUrl": "",
     "header": "",
-    "lastUpdateTime": 1625042466393,
+    "lastUpdateTime": 1625414967257,
     "loginUrl": "",
     "ruleBookInfo": {
       "author": "$.data.Author",
@@ -357,11 +357,11 @@
     "bookSourceUrl": "https://www.copymanga.net",
     "bookUrlPattern": "https://www.copymanga.net/comic/.*",
     "customOrder": 200,
-    "enabled": true,
-    "enabledExplore": true,
+    "enabled": false,
+    "enabledExplore": false,
     "exploreUrl": "日榜::/rank?table=day\n周榜::/rank?table=week\n月榜::/rank?table=month\n总榜::/rank?table=total",
     "header": "",
-    "lastUpdateTime": 1625231453341,
+    "lastUpdateTime": 1625458729448,
     "loginUrl": "https://www.copymanga.net",
     "ruleBookInfo": {
       "author": "@css:div.comicParticulars-title-right li:nth-of-type(3) a @text ##\\s##、",
@@ -386,11 +386,11 @@
       "wordCount": "@css:div.update @text ##$##🔥"
     },
     "ruleSearch": {
-      "author": "$.author[*].name ##\\s##、",
+      "author": "$.author[*]name ##\\s##、",
       "bookList": "$.results.list[*]",
       "bookUrl": "/comic/{{$.path_word}},{\"webView\": true}",
       "coverUrl": "$.cover",
-      "intro": "$.alias",
+      "intro": "",
       "name": "$.name",
       "wordCount": "$.popular ##$##🔥"
     },
@@ -400,6 +400,61 @@
       "chapterUrl": "href##$##,{\"webView\": true}"
     },
     "searchUrl": "/api/kb/web/searchc/comics?offset=0&platform=2&limit=12&q={{key}}&q_type=",
+    "weight": 0
+  },
+  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "漫画",
+    "bookSourceName": "拷貝漫畫H5",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.copymanga.com/h5",
+    "bookUrlPattern": "https://api.copymanga.com/api/v3/comic2/.*",
+    "customOrder": 201,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "日榜::https://api.copymanga.com/api/v3/ranks?date_type=day\n周榜::https://api.copymanga.com/api/v3/ranks?date_type=week\n月榜::https://api.copymanga.com/api/v3/ranks?date_type=month\n总榜::https://api.copymanga.com/api/v3/ranks?date_type=total",
+    "header": "",
+    "lastUpdateTime": 1625459683189,
+    "loginUrl": "https://www.copymanga.com/h5/init",
+    "ruleBookInfo": {
+      "author": "$.results.comic.author[*]name ##\\s##、",
+      "canReName": "true",
+      "coverUrl": "$.results.comic.cover",
+      "intro": "$.results.comic.brief",
+      "kind": "$.results.comic.status.display && .results.comic.theme[*]name",
+      "lastChapter": "$.results.comic.last_chapter.name",
+      "name": "$.results.comic.name",
+      "tocUrl": "https://api.copymanga.com/api/v3/comic/{{$.results.comic.path_word}}/group/default/chapters?limit=500&offset=0",
+      "wordCount": "$.results.comic.popular ##$##🔥"
+    },
+    "ruleContent": {
+      "content": "$.results.chapter.contents[*]url ##(https://.*)##<img src=\"$1\">&zwnj;",
+      "imageStyle": "FULL"
+    },
+    "ruleExplore": {
+      "author": "$.comic.author[*].name ##\\s##、",
+      "bookList": "$.results.list[*]",
+      "bookUrl": "https://api.copymanga.com/api/v3/comic2/{{$.comic.path_word}}",
+      "coverUrl": "$.comic.cover",
+      "name": "$.comic.name",
+      "wordCount": "$.comic.popular ##$##🔥"
+    },
+    "ruleSearch": {
+      "author": "$.author[*]name ##\\s##、",
+      "bookList": "$.results.list[*]",
+      "bookUrl": "https://api.copymanga.com/api/v3/comic2/{{$.path_word}}",
+      "coverUrl": "$.cover",
+      "intro": "$.alias",
+      "name": "$.name",
+      "wordCount": "$.popular ##$##🔥"
+    },
+    "ruleToc": {
+      "chapterList": "$.results.list[*]",
+      "chapterName": "$.name",
+      "chapterUrl": "https://api.copymanga.com/api/v3/comic/{{$.comic_path_word}}/chapter/{{$.uuid}}",
+      "updateTime": "$.size && .datetime_created ##\\s##页 更新时间："
+    },
+    "searchUrl": "https://api.copymanga.com/api/v3/search/comic?q={{key}}&limit=20&offset=0",
     "weight": 0
   }
 ]
