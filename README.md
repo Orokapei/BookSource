@@ -12,6 +12,7 @@ https://raw.githubusercontent.com/Orokapei/BookSource/main/repository.json
 - 纵横中文网``无VIP章节解析 www.zongheng.com``
 - 晋江文学城``无VIP章节解析 www.jjwxc.net``
 - 拷貝漫畫``www.copymanga.net``
+- 拷貝漫畫H5``www.copymanga.com/h5``
 ```
 https://raw.githubusercontent.com/Orokapei/BookSource/main/Legado.json
 ```
